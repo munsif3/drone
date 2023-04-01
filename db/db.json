@@ -1,5 +1,46 @@
 {
-    "drones": [],
-    "medications": []
-  }
-  
+  "drones": [
+    {
+      "id": "ddc1ca83-65fa-44dd-a56e-4a7e23476fba",
+      "serialNumber": "DRN001",
+      "model": "Lightweight",
+      "weightLimit": 500,
+      "batteryCapacity": 100,
+      "state": "LOADED",
+      "loadedMedications": [
+        {
+          "id": "77d5770c-f615-4335-8e88-f4297d36dbfa",
+          "name": "Medication A",
+          "weight": 100,
+          "code": "MED_A",
+          "image": "https://example.com/med_a.png"
+        }
+      ]
+    },
+    {
+      "id": "730fe7a1-9ab6-4d1c-af3e-94c88b9b06ca",
+      "serialNumber": "DRN002",
+      "model": "Middleweight",
+      "weightLimit": 500,
+      "batteryCapacity": 75,
+      "state": "IDLE",
+      "loadedMedications": []
+    }
+  ],
+  "medications": [
+    {
+      "id": "77d5770c-f615-4335-8e88-f4297d36dbfa",
+      "name": "Medication A",
+      "weight": 50,
+      "code": "MED_A",
+      "image": "https://example.com/med_a.png"
+    },
+    {
+      "id": "cd6b13d6-a4f9-4c41-80ff-d5e46b3d3b16",
+      "name": "Medication B",
+      "weight": 100,
+      "code": "MED_B",
+      "image": "https://example.com/med_b.png"
+    }
+  ]
+}
