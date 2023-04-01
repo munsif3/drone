@@ -7,15 +7,7 @@
       "weightLimit": 500,
       "batteryCapacity": 100,
       "state": "LOADED",
-      "loadedMedications": [
-        {
-          "id": "77d5770c-f615-4335-8e88-f4297d36dbfa",
-          "name": "Medication A",
-          "weight": 100,
-          "code": "MED_A",
-          "image": "https://example.com/med_a.png"
-        }
-      ]
+      "loadedMedications": []
     },
     {
       "id": "730fe7a1-9ab6-4d1c-af3e-94c88b9b06ca",
